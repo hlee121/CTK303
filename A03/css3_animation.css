@@ -1,0 +1,196 @@
+
+
+body {
+    
+    background-image: url('Club.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ff4500;
+    padding-bottom: 20px;
+}
+
+h1:hover {
+    color: white;
+    margin: auto;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 30px;
+
+}    
+
+
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+    margin-bottom: 80px;
+    transition: width 1.0s, color 1.0s;
+}
+
+.square:hover {
+  width: 800px;
+    background-color: #00ff00;
+    
+} 
+
+
+.circle1 {
+position: absolute;
+  top: 150px;
+  left: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    opacity: 0.7;
+    animation: circle1-ani 3s linear infinite;
+
+}    
+
+@keyframes circle1-ani {
+    0%   {background-color:#f5f5f5;}
+    30%  {background-color:#7fff00;}
+    50%  {background-color:#ff00ff;}
+    70%  {background-color:#ffff00;}
+    100% {background-color:#f5f5f5;}
+}
+
+.circle2 {
+position: absolute;
+  top: 500px;
+  left: 5%;
+    height: 200px;
+    width: 200px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    opacity: 0.7;
+    animation: circle2-ani 3s linear infinite;
+
+}    
+
+@keyframes circle2-ani {
+    0%   {background-color:#ffff00;}
+
+    50%  {background-color:#ff00ff;}
+
+    100% {background-color:#ffff00;}
+}
+
+.circle3 {
+position: absolute;
+  top: 200px;
+  left: 25%;
+    height: 350px;
+    width: 350px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    opacity: 0.7;
+    animation: circle3-ani 2s linear infinite;
+
+}    
+
+@keyframes circle3-ani {
+    0%   {background-color:#98fb98;}
+
+    50%  {background-color:#ff1493;}
+
+    100% {background-color:#98fb98;}
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 90px solid #f0f8ff;
+    margin-bottom: 30px;
+      animation: tri-ani 5s linear infinite;
+
+}
+
+@keyframes tri-ani {
+  0%   { opacity: 1.0; left:300px; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; left: 1000px; }
+}
+
+.triangle2 {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 90px solid #ff69b4;
+    margin-bottom: 30px;
+      animation: tri2-ani 3s linear infinite;
+
+}
+
+@keyframes tri2-ani {
+  0%   { opacity: 1.0; left:1000px; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; left: 300px; }
+}
+
+.people {
+    height: 90px;
+    width: 120px;
+
+      transition: all .25s;
+
+}
+
+.people:hover img {
+  transform: scale(1.3);
+}      
+
+
+.dance {
+	width: 120px;
+	height: 70px;
+    position: absolute;
+     top: 300px;
+  right: 30%;
+}
+
+.dance{
+  transition: all .25s;
+}
+
+.dance:hover img {
+  transform: rotate(90deg);
+}
+
+.dance2 {
+	width: 100px;
+	height: 70px;
+    position: absolute;
+     top: 250px;
+  right: 60%;
+}
+.dance2{
+    
+  transition: all .25s;
+}
+
+.dance2:hover img {
+  transform: rotate(200deg);
+}
