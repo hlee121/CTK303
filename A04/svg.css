@@ -1,0 +1,152 @@
+.m {
+
+  position: relative;
+  animation: mmove 8s infinite;
+}
+@keyframes mmove {
+  0%   {top: 0px; left: 30%; }
+  50%  {top: 0px; left: 65%; }
+  100% {top: 0px; left: 30px; }
+}
+
+
+svg {
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    
+}
+
+/* Make the C Layer zoom down */
+#_0 {
+  animation: cfade 1.5s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+/* Make the T Layer spin around */
+#_1 {
+  animation: tfade 4.5s ;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#h {
+    animation: hmove 2s ;
+	
+}
+@keyframes hmove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#y {
+    animation: ymove 2.5s;
+	
+}
+@keyframes ymove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#o {
+    animation: omove 3s;
+	
+}
+@keyframes omove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#j {
+    animation: jmove 3.5s;
+	
+}
+@keyframes jmove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#u {
+    animation: umove 4s;
+	
+}
+@keyframes umove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#n {
+    animation: nmove 4.5s;
+	
+}
+@keyframes nmove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#g {
+    animation: gmove 5s;
+	
+}
+@keyframes gmove {
+  0% { transform: rotate(-360deg);
+        opacity: 0;
+  }
+  100% { transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+#Lee {
+     animation: run 5s infinite;
+    
+}
+@keyframes run {
+    from {
+        transform : scale(1);
+        opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    }
+}
+
+
